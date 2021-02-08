@@ -28,9 +28,6 @@ public:
     }
 
     static bool CreateCreatureFormation(ChatHandler *handler, char const *args) {
-        // .pack create leadGUID* memGUID* groupAI dist angle
-        handler->PSendSysMessage(args);
-
         if (!*args) {
             handler->PSendSysMessage("[CreatureFormations] No arguments provided to create a pack with!");
             handler->SetSentErrorMessage(true);
