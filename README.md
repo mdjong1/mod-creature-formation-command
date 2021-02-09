@@ -9,7 +9,7 @@ dungeons that have incorrectly linked mob pulls by easily adding links for their
 
 Arguments with * are required, rest are optional.
 
-.pack create leaderGUID* memberGUID* groupAI dist angle
+.pack create leaderGUID* memberGUID* groupAI dist angle  
 .pack disband leaderGUID*
 
 e.g.  
